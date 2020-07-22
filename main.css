@@ -1,0 +1,68 @@
+body {
+  padding: 0;
+  margin: 0;
+  background:#d5dbdb;
+}
+
+.navbar {
+  background:black;
+  font-style: normal;
+  color: white;
+  font-size: 2rem;
+}
+
+.header {
+  background-image: url('ddg-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.description {
+  left: 20%;
+  position: absolute;
+  top: 70%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+
+.description h1 {
+  color: white;
+}
+
+.description p {
+  padding-top: 220px;
+  padding-left: 25px;
+  color: #93a391;
+  font-size: 3rem;
+  line-height: 1;
+  font-style: normal;
+}
+
+.description button {
+  border:0px;
+}
+
+.description button:hover {
+  border:0.5px solid #fff;
+  background:#fff;
+  color:#d5dbdb;
+}
+
+.navbar2{
+	padding:15px;
+	text-align:center; 
+	background:black;
+	font-style: inherit;
+	color: white;
+}
+
+.caption{
+	padding-top: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  height: 80px;
+  text-align: center;
+  font-weight: 500;
+  border-style: border.;
+}
